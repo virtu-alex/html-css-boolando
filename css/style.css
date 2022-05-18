@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 100px;
+}
+
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: #FF6900;
+
+}
+.container {
+    padding: 1rem;
+    margin: 0 auto;
+    max-width: 1200px;
+    height: 100%;
+    border: 1px dashed black;
+}
+
+.nav-bar {
+    justify-content: space-between;
+    align-items: center;
+    border: 1px dashed black;
+    display: flex;
+}
+
+.nav-sex {
+    border: 1px dashed black;
+    flex-basis: 15%;
+}
+
+.logo {
+    border: 1px dashed black;
+    flex-basis: 60%;
+    text-align: center;
+}
+
+.wishlist {
+    text-align: right;
+    border: 1px dashed black;
+    flex-basis: 15%;
+}
+
+.logo-bool{
+    height: 50px;
+}
+
+
+.row{
+    display: flex;
+    max-width: 1200px;
+}
+
+.col{
+    border: 1px dashed black;
+    flex-basis: 100%;
+}
