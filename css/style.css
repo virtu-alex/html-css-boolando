@@ -16,12 +16,11 @@ header {
     background-color: #FF6900;
 
 }
+
 .container {
-    padding: 1rem;
     margin: 0 auto;
-    max-width: 1200px;
-    height: 100%;
-    border: 1px dashed black;
+    max-width: 1600px;
+    padding-bottom: 1rem;
 }
 
 .nav-bar {
@@ -38,7 +37,7 @@ header {
 
 .logo {
     border: 1px dashed black;
-    flex-basis: 60%;
+    flex-basis: 70%;
     text-align: center;
 }
 
@@ -48,17 +47,39 @@ header {
     flex-basis: 15%;
 }
 
-.logo-bool{
+.logo-bool {
     height: 50px;
 }
 
 
-.row{
+.row {
     display: flex;
-    max-width: 1200px;
 }
 
-.col{
+.pos-rel{
+    position: relative;
+
+}
+
+.col {
     border: 1px dashed black;
     flex-basis: 100%;
+}
+
+.main-image {
+    width: 100%;
+}
+
+.discount {
+    content: '\2556';
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 3rem;
+    background-color: rgb(255, 255, 255);
+    height: 2rem;
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
